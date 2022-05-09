@@ -1,0 +1,22 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(247, 247, 247);
+
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+
+div{
+    outline: 1px solid black;
+    display: inline-block;
+    height: 150px;
+}
